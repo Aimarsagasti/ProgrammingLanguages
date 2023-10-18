@@ -5,11 +5,10 @@ public class myNumber {
 	private int num, sum;
 	public int num2;
 	
-	public myNumber() {
+	public myNumber(int num, int num2) {
 		
-		num = 0;
-		num2 = 100;
-		
+		this.num = num;
+		this.num2 = num2;
 		
 	}
 	
