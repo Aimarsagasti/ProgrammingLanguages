@@ -1,0 +1,49 @@
+import java.math.*;
+
+
+
+public class Ex2 {
+
+
+
+  public static void main(String[] args) {
+
+    double num = 0.84, s, c, t, squareroot, square, cube, small, big, area;
+    
+    int [] integer = new int[6];
+    
+    s = Math.sin(num);
+    
+    c = Math.cos(num);
+    
+    t = Math.tan(num);
+    
+    System.out.println("The sin value is: "+s);
+    
+    System.out.println("The cos value is: "+c);
+    
+    System.out.println("The tangent value is: "+t);
+    
+    squareroot = Math.sqrt(num);
+    
+    System.out.println("Square root value is: "+squareroot);
+    
+    square = Math.pow(num, 2);
+    
+    cube = Math.pow(num, 3);
+    
+    System.out.println("Square value is: "+square+", and cube value is: "+cube);
+    
+    int i ;
+    
+    area = Math.PI * Math.pow(num, 2);
+    
+    System.out.println("Pi: "+Math.PI+"\nE value : "+Math.E);
+
+
+
+  }
+
+
+
+}
