@@ -1,0 +1,52 @@
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		
+		
+		String text = "Computer";
+		
+		String text2;
+		
+		System.out.println("The text value is: "+text);
+		
+		System.out.println("The length of the word is: "+text.length());
+		
+		System.out.println("The first letter is: "+text.charAt(0)+", The second last letter is: "+text.charAt(text.length()-1)+ ","
+				+ " and the letter in the middle is: "+text.charAt((text.length()-1) / 2));
+		
+		
+		
+		if(text.startsWith("Com")) {
+			
+			System.out.println("The text starts with Com");
+			
+		}else {
+			
+			System.out.println("The text does not start with Com");
+			
+		}
+		
+		if(text.endsWith("ion")) {
+			
+			System.out.println("The text ends with ion");
+			
+		}else {
+			
+			System.out.println("The text does not end with ion");
+			
+		}
+		
+		text2 = text.substring(0, 2);
+		
+		System.out.println("Text2 value is: :"+text2);
+		
+		text2 = text.replace('o', 'e');
+		
+		System.out.println(text2);
+		
+		
+
+	}
+
+}
